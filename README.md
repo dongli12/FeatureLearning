@@ -4,9 +4,7 @@ This is the research code for the paper:
 
 [Dong Li](https://sites.google.com/site/lidonggg930), [Wei-Chih Hung](https://hfslyc.github.io/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/), [Shengjin Wang](http://www.ee.tsinghua.edu.cn/publish/eeen/3784/2010/20101219115601212198627/20101219115601212198627_.html), [Narendra Ahuja](http://vision.ai.illinois.edu/ahuja.html), and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). "Unsupervised Visual Representation Learning by Graph-based Consistent Constraints" In Proceedings of European Conference on Computer Vision (ECCV), 2016
 
-We take the CIFAR10 dataset as an example to test our unsupervised constraint mining approach in this code. Our mined constraints and trained model on ImageNet in the unsupervised manner can be found here: 
-
-[ImageNet_unsup.zip](https://sites.google.com/site/lidonggg930/feature-learning)
+We take the CIFAR10 dataset as an example to test our unsupervised constraint mining approach in this code. 
 
 [Project page](https://sites.google.com/site/lidonggg930/feature-learning)
 
