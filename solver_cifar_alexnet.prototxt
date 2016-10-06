@@ -1,0 +1,12 @@
+net: "net_cifar_alexnet.prototxt"
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 50000
+display: 100
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 50000
+snapshot_prefix: "model_cifar_alexnet"
+solver_mode: GPU
