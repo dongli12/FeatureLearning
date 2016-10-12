@@ -1,5 +1,5 @@
 
-for im_per_class = [1 5 10 20 30]
+for im_per_class = [1 5 10 50 100 500]
 
     [ims,label] = textread('cifar_train/img_list.txt','%s %d');
     num_im = length(ims);
