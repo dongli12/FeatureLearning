@@ -60,12 +60,16 @@ If you find the code and pre-trained models useful in your research, please cons
 
 ### Usage
 
-1. Extract low-level features (Fisher Vectors).
+1. Extract low-level features (Fisher Vectors). 
 
     ```
     >> prepare_data
     >> extract_features
     ```
+   Note:
+   1) You may set different params to extract FV features for different datasets, e.g., totalFeatLimit and numImg in compute_dense.m.
+   2) We resize the image to 256*256 to extract FV features (L32 of compute_dense.m in feature.zip).
+   3) It takes a few days to extract features for the ImageNet 1M images with parallelization.
 
 2. Mine constraints.
 
